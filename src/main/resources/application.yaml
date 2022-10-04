@@ -1,0 +1,32 @@
+couchbase:
+  host: 127.0.0.1
+  #    host: host.docker.internal
+  username: admin
+  password: admin123
+quarkus:
+  http:
+    port: 8080
+#  native.additional-build-args: "-H:ResourceConfigurationFiles=resources-config.json,-H:ReflectionConfigurationFiles=reflection-config.json"
+
+#"%dev":
+#  couchbase:
+#    host: 127.0.0.1
+#    #    host: host.docker.internal
+#    username: admin
+#    password: admin123
+#    bucketName: travel-sample
+#  quarkus:
+#    http:
+#      port: 8080
+#
+#"%docker":
+#  couchbase:
+#    host: host.docker.internal
+#    username: admin
+#    password: admin123
+#    bucketName: travel-sample
+#  quarkus:
+#    http:
+#      port: 8083
+#    swagger-ui:
+#      always-include: true
